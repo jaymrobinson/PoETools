@@ -4,7 +4,7 @@ using System.Drawing;
 namespace Stashify
 {
     // Borrowed from: https://stackoverflow.com/questions/4793729/rgb-to-hsl-and-back-calculation-problems
-    public class HSLColor
+    public struct HSLColor
     {
         public float Hue;
         public float Saturation;
