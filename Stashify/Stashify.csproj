@@ -46,9 +46,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ColorUtil.cs" />
+    <Compile Include="ColorIndexElement.cs" />
+    <Compile Include="HSLColor.cs" />
+    <Compile Include="Configuration.cs" />
+    <Compile Include="Services\AssetDownloader.cs" />
+    <Compile Include="Services\ColorIndexBuilder.cs" />
+    <Compile Include="Services\ColorIndexProvider.cs" />
+    <Compile Include="Services\IAssetDownloader.cs" />
+    <Compile Include="Services\IColorIndexBuilder.cs" />
+    <Compile Include="Services\IColorIndexProvider.cs" />
+    <Compile Include="Services\IImageGenerationService.cs" />
+    <Compile Include="Services\ImageGenerationService.cs" />
+    <Compile Include="Services\ImageResizer.cs" />
+    <Compile Include="Validation\IFileValidator.cs" />
+    <Compile Include="Validation\FileValidator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Validation\ValidationError.cs" />
+    <Compile Include="Validation\ValidationResult.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
