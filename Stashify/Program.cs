@@ -151,6 +151,8 @@ namespace Stashify
                     Environment.Exit(-4);
                 }
             }
+
+            File.Copy("black.png", Path.Combine(assetDir, "black.png"));
             string[] lines = File.ReadAllLines("assets.txt");            
             WebClient client = new WebClient();            
             foreach (var line in lines)
@@ -277,7 +279,7 @@ namespace Stashify
                 output.Add(new ColorIndexElement(avgColor, info.Name));
             }
             TextWriter tw = File.CreateText("ColorIndex.tsv");
-            tw.WriteLine("black.png\t0\t0\t0");
+            
             float lumBoost = 1.0f / maxBrightness;
             foreach (var elem in output)
             {
