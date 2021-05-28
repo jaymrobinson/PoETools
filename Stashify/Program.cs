@@ -49,7 +49,7 @@ namespace Stashify
                 Environment.Exit(0);
             }
 
-            bool drawGridLines = Convert.ToBoolean(ConfigurationManager.AppSettings["UseGridLines"] ?? "false");
+            bool drawGridLines = Convert.ToBoolean(ConfigurationManager.AppSettings["DrawGridLines"] ?? "false");
             int horizRes = Convert.ToInt32(ConfigurationManager.AppSettings["HorizontalResolution"] ?? "74");
             int vertRes = Convert.ToInt32(ConfigurationManager.AppSettings["VerticalResolution"] ?? "74");
             bool prioritizeHue = Convert.ToBoolean(ConfigurationManager.AppSettings["PrioritizeHue"] ?? "true");
@@ -128,8 +128,7 @@ namespace Stashify
                     }
                 }
             }
-            outputBitmap.Save("done.png");
-
+            outputBitmap.Save(String.Format("Stashified_{0:yyyyMMdd-HHmmss}.png", DateTime.Now));
         }
 
         static void DownloadAssets(string assetDir)        

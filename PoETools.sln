@@ -3,10 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssetDownloader", "AssetDownloader\AssetDownloader.csproj", "{224D6B44-A67B-4469-81BE-B294633C7039}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildColorIndex", "BuildColorIndex\BuildColorIndex.csproj", "{91071137-2974-41EB-965F-A74CF00EEE58}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stashify", "Stashify\Stashify.csproj", "{F1DB5DF7-0E23-4559-B5ED-478A066F95DD}"
 EndProject
 Global
@@ -15,14 +11,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{224D6B44-A67B-4469-81BE-B294633C7039}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{224D6B44-A67B-4469-81BE-B294633C7039}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{224D6B44-A67B-4469-81BE-B294633C7039}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{224D6B44-A67B-4469-81BE-B294633C7039}.Release|Any CPU.Build.0 = Release|Any CPU
-		{91071137-2974-41EB-965F-A74CF00EEE58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{91071137-2974-41EB-965F-A74CF00EEE58}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{91071137-2974-41EB-965F-A74CF00EEE58}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{91071137-2974-41EB-965F-A74CF00EEE58}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F1DB5DF7-0E23-4559-B5ED-478A066F95DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F1DB5DF7-0E23-4559-B5ED-478A066F95DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1DB5DF7-0E23-4559-B5ED-478A066F95DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
