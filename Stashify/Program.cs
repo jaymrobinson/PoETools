@@ -277,7 +277,8 @@ namespace Stashify
                 output.Add(new ColorIndexElement(avgColor, info.Name));
             }
             TextWriter tw = File.CreateText("ColorIndex.tsv");
-            float lumBoost = 1 / maxBrightness;
+            tw.WriteLine("black.png\t0\t0\t0");
+            float lumBoost = 1.0f / maxBrightness;
             foreach (var elem in output)
             {
                 var hsl = HSLColor.FromRGB(elem.Color);
