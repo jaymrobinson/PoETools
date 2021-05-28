@@ -1,5 +1,5 @@
 # PoETools/Stashify
- A tool to create stash art using images from the game Path of Exile. This application was built in Visual Studio 2015 using C# and targeting .NET Framework 4.6.2.
+ A tool to create stash art using images from the game Path of Exile. This application was built in Visual Studio 2015 using C# and targeting .NET Framework 4.5.2.
  
  Note: I am not affiliated in any way with Grinding Gear Games, the developers of Path of Exile.
  
